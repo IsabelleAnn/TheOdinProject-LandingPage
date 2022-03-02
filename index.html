@@ -4,13 +4,22 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            Header Logo
+    <div class="header edge-space">
+        <div>
+            <h1 id="logo">Header Logo</h1>
         </div>
         <ul class="header-links">
             <li><a href="">Header Link One</a></li>
@@ -18,18 +27,18 @@
             <li><a href="">Header Link Three</a></li>
         </ul>
     </div>
-    <div class="hero-section">
-        <div class="hero-text">
-            <h2>This website is awesome</h2>
-            <p>THis website has some subtext that goes here under the main title. It's a smaller font and the color is
-                lower contrast.</p>
-            <button>Sign Up</button>
+    <div class="hero-section edge-space">
+        <div class="hero-text-container">
+            <h2 class="hero-text">This website is awesome</h2>
+            <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <button class="hero-text">Sign up</button>
         </div>
-        <img class="hero-img" src="">
+        <img id="hero-img">
     </div>
-    <div class="info-section">
-        <h3 class="info-header"></h3>
+    <div class="info-section edge-space">
+        <h3 class="info-header">Some random informaion.</h3>
         <div class="info-cards-container">
+
             <div class="info">
                 <img class="info-img">
                 <p class="info-text">This is informative text about the image above.</p>
@@ -48,18 +57,20 @@
             </div>
         </div>
     </div>
-    <div class="quote-section">
-        <h3 class="quote">Somebody once said some things that sounded witty but were actually dumb.</h3>
-        <p class="author">Author</p>
+    <div class="quote-section edge-space">
+        <h3 id="quote">Somebody once said some things that sounded witty but were actually dumb.</h3>
+        <p id="author">-Author Dude</p>
     </div>
-    <div class="cta-section">
-        <div class="cta-text">
-            <h4>Call to action! It's time!</h4>
-            <p>Some text underneath the call to action header that says stuff.</p>
+    <div class="cta-section edge-space">
+        <div class="cta-container">
+            <div class="cta-text">
+                <h4>Call to action! It's time!</h4>
+                <p>Some text underneath the call to action header that says stuff.</p>
+            </div>
+            <button class="cta-button">Sign up</button>
         </div>
-        <button class="cta-button">Sign Up</button>
     </div>
-    <div class="footer">
+    <div class="footer edge-space">
         <p>Copyright @ Isabelle Dikovsky 2022</p>
     </div>
 </body>
