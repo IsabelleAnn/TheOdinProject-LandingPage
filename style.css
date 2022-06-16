@@ -174,3 +174,15 @@ h3 {
     color: #f9faf8;
     text-align: center;
 }
+
+.footer a:link,
+.footer a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:visited {
+    color: #2f4d47;
+    text-decoration: none;
+}
