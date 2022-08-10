@@ -1,4 +1,4 @@
-# Simple Landing Page - 
+# Simple Landing Page
 
 Part of The Odin Project Curriculum
 
